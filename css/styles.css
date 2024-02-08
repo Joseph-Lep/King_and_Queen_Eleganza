@@ -1,0 +1,57 @@
+body {
+  font-family: broadway, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  background: rgb(218, 22, 115);
+  background: linear-gradient(90deg, rgb(218, 22, 115) 5%, rgb(213, 211, 12) 47%, rgb(0, 249, 255) 100%);
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+header {
+  display: flex;
+}
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 180%;
+}
+
+#buttonnav img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+  height: auto;
+}
+
+#buttonsocial img {
+  width: 90px;
+  height: 90px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}/*# sourceMappingURL=styles.css.map */
